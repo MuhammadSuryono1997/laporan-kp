@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>430</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>admin
+--
+-id_users:String
+-username:String
+-password:String
+--
+-login()
+-logout()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>40</y>
+      <w>210</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>barang
+--
+-id_barang:String
+-kode_barang:String
+-nama_barang:String
+-jenis_barang:String
+-kategori_barang:String
+-harag:int
+-stock:int
+-tanggal_update:datetime
+--
+-get_data()
+-add()
+-edit()
+-get_data_edit()
+-delete()
+-cetak_barang()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>510</x>
+      <y>60</y>
+      <w>210</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>users
+--
+-id_users:String
+-username:String
+-password:String
+-nama_lengkap:String
+-npwp:String
+-no_ktp:String
+-alamat:String
+-tanggal_dibuat
+--
+-get_all()
+-get_edit()
+-add()
+-edit()
+-delete()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>430</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>pemesanan
+--
+-id_pemesanan:STring
+-kode_pemesanan:String
+-id_users:String
+-id_cart
+-tanggal_pembuatan:datetime
+-tanggal_checkout:datetime
+-status:String
+--
+-get()
+-add()
+-edit()
+-delete()</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
