@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-22T20:27:07.389Z" agent="5.0 (Windows)" etag="xmY4RbNMIoI-rSfTnwn-" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-30T02:34:23.101Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="nBD_npxLd2clIB99OQcg" version="13.8.7" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="867" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,6 +57,9 @@
         </mxCell>
         <mxCell id="Qf3G4Zky_gIPbff6KDNo-9" value="Verifikasi ?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="50" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pGKnuEzWpdcpm5S8e0IX-1" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Lengkap&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="136" y="131" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-4" value="Sistem" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="320" y="20" width="160" height="730" as="geometry" />
